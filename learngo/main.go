@@ -3,10 +3,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/Johnjihwan/learngo/something"
+	"github.com/Johnjihwan/learngo/Theory"
 )
 
 func main() {
-	fmt.Println("Hello GO")
-	something.SayHello()
+	name := "john"
+	name = "jihwan"
+	fmt.Println(name)
+
+	Theory.This()
 }
